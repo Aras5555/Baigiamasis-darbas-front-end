@@ -1,0 +1,187 @@
+.body {
+  box-sizing: border-box;
+  background: #f9fafc;
+}
+
+.top {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #e4e4e4;
+  background: #f9f9f9;
+  line-height: 30px;
+
+}
+.span {
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+  font-size: 12px;
+  margin-left: 50px;
+}
+.soc { padding-right: 20px;
+  color: gray;
+}
+.srch {
+  height: 30px;
+
+}
+
+.col1 {
+  color:black;
+}
+.navi {
+  border-bottom: 1px solid #E4E4E4;
+  cursor: pointer;
+}
+nav {
+  color:gray ;
+  font-size:12px;
+  font-weight: bold;
+  padding-right: 40px;
+  padding-left: 40px;
+
+}
+#logo {
+  float: left;
+  margin-left: 50px;
+}
+input {
+  float: right;
+  padding-left:50px;
+}
+
+form.form-search {
+  position: relative;
+}
+
+form.form-search:before {
+  content:'';
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+  background-position: -48px 0;
+  position: absolute;
+  top:8px;
+  left:8px;
+  opacity: .5;
+  z-index: 1000;
+}
+section {
+  height: 200px;
+  text-align: center;
+  background: black;
+}
+.sec1 {
+  color: white;
+  vertical-align: center;
+  margin: 50px 0 20px 0
+}
+.sec2 {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  color: gray;
+}
+article {
+  height: 200px;
+  margin-top: 110px;
+}
+
+.pro {
+  background: #3C464D;
+  color: white;
+  font-family: "Oswald", "Open Sans", sans-serif;
+  float: left;
+  height: 550px;
+
+
+
+}
+.pic1 {
+  float: right;
+}
+.prg {
+  background-image:url("../img/bg_header4.jpg") ;
+  height: 550px;
+  width: 100%;
+}
+.title {
+  text-transform:uppercase;
+  margin-left: 30px;
+  vertical-align: center;
+  text-align: left;
+  position: absolute;
+
+}
+
+.rocket {
+  height: 300px;
+  background: #1ccdca;
+  overflow: hidden;
+}
+/* article styling*/
+.circle {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #1ccdca ;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  padding: 22px;
+}
+.i {
+  color: #1ccdca;
+  font-size: 30px;
+}
+.title1 {
+  font-size: 17px;
+}
+
+.hov:hover .hov-title {
+  color: #1ccdca;
+  transition: 0.8s;
+  transition-delay: 0.3s;
+}
+.hov:hover .hov-circle {
+  background: #1ccdca;
+  transition: 0.8s;
+}
+.hov:hover .hov-i {
+  color: white;
+  transition: 0.8s;
+}
+
+
+
+
+.value {width: 40px;
+  border-color:white;
+  border-style: solid;
+  border-width: 4px;
+  display: block;
+  text-align: center;
+  border-radius: 2px;
+  font-style: italic;
+  color: #3C464D;
+  background: white;
+  margin-right: 10px;
+  float: right;
+
+
+}
+
+
+.valueTriangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px  20px 20px 0 ;
+  border-color: transparent transparent red transparent;
+  float: right;
+}
+.card1 {
+    max-width: 400px;
+}
+
+

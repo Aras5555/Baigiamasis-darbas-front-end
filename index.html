@@ -154,7 +154,7 @@
                            of type.
                          </p>
                          <div id="myBar" class="progress md-progress" style="height: 35px;background: #262626;">
-                           <div class="progress-bar" style="width:80%; background:  #00b0b3;">
+                           <div class="progress-bar" precentage="80" style="width:80%; background:  #00b0b3;">
                                <span class="title" >Web Design</span>
                                <div>
                                    <span class="value">
@@ -164,8 +164,8 @@
                                </div>
                            </div>
                          </div><br>
-                       <div class="progress md-progress" style="height: 35px;background: #262626;">
-                           <div class="progress-bar" style="width:60%; background:   #1e90ff;">
+                       <div class="progress md-progress " style="height: 35px;background: #262626;">
+                           <div class="progress-bar" precentage="60" style="width:60%; background:   #1e90ff;">
                                <span class="title" >Programming</span>
                                <div>
                                <span  class="value">
@@ -176,7 +176,7 @@
                            </div>
                        </div><br>
                        <div class="progress md-progress" style="height: 35px;background: #262626;">
-                           <div class="progress-bar" style="width:70%; background:  #17827d;">
+                           <div class="progress-bar" precentage="70" style="width:70%; background:  #17827d;">
                                <span class="title" >Html/css</span>
                                <div>
                                    <span  class="value">
@@ -187,9 +187,9 @@
                            </div>
                        </div><br>
                        <div class="progress md-progress" style="height: 35px;background: #262626;">
-                           <div class="progress-bar" style="width:100%; background:  #009933;">
+                           <div class="progress-bar" precentage="100" style="width:100%; background:  #009933;">
                                <span class="title" >Wordpress</span>
-                               <div>
+                               <div >
                                    <span  class="value">
                                        <span>100</span>
                                        <span>%</span>
@@ -198,9 +198,9 @@
                            </div>
                        </div><br>
                        <div class="progress md-progress" style="height: 35px;background: #262626;">
-                           <div class="progress-bar" style="width:40%; background:  #ff0066;">
+                           <div class="progress-bar" precentage="40" style="width:40%; background:  #ff0066;transition: 2s;">
                                <span class="title" >Joomla</span>
-                               <div>
+                               <div class="value1">
                                    <span  class="value">
                                        <span>40</span>
                                        <span>%</span>
@@ -214,14 +214,15 @@
       </div>
     </div>
 </div>
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" style="background: dodgerblue;">
             <div id="tabs">
-                <h6 class="section-title h1">Tabs</h6>
+                <h5 style="margin-top: 150px" class="section-title">WHY CHOOSE US?</h5>
+                <span>line</span>
                 <nav>
-                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#quality"
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist" >
+                        <a style="border-top:4px solid #ff0066"class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#quality"
                            role="tab" aria-controls="nav-home" aria-selected="true">Qality</a>
                         <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#design"
                            role="tab" aria-controls="nav-profile" aria-selected="false">Design</a>
@@ -229,64 +230,115 @@
                            role="tab" aria-controls="nav-contact" aria-selected="false">Programming</a>
                     </div>
                 </nav>
-                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="quality" role="tabpanel" aria-labelledby="nav-home-tab">
-                        Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum
-                        has been the industry standar dummyy text ever since the when an iunesi known.
-                        <ul>
-                            <li>Multiple Layout</li>
-                            <li>Awesome Shortcodes</li>
-                            <li>Browser Compatibility</li>
-                            <li>Easy to Edit Animations</li>
-                            <li>Parallax Effect</li>
-                            <li>Responsive Design</li>
-                            <li>Many Home Page Versions</li>
-                            <li>Many Blog Pages</li>
-                        </ul>
-                        <div class="col-md-6">
-                            <img src="../img/porto3.jpg" height="200" width="200"/>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text
-                        Ipsum has been the industry standar dummyy text ever since the when an iunesi known.
-                        <ul>
-                            <li>Multiple Layout</li>
-                            <li>Awesome Shortcodes</li>
-                            <li>Browser Compatibility</li>
-                            <li>Easy to Edit Animations</li>
-                            <li>Parallax Effect</li>
-                            <li>Responsive Design</li>
-                            <li>Many Home Page Versions</li>
-                            <li>Many Blog Pages</li>
-                        </ul>
-                    </div>
-                        <div class="tab-pane fade" id="programming" role="tabpanel" aria-labelledby="nav-profile-tab">
-                            Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text
-                            Ipsum has been the industry standar dummyy text ever since the when an iunesi known.
-                            <ul>
-                                <li>Multiple Layout</li>
-                                <li>Awesome Shortcodes</li>
-                                <li>Browser Compatibility</li>
-                                <li>Easy to Edit Animations</li>
-                                <li>Parallax Effect</li>
-                                <li>Responsive Design</li>
-                                <li>Many Home Page Versions</li>
-                                <li>Many Blog Pages</li>
-                            </ul>
-                        </div>
+
+                     <div class="tab-content  " id="nav-tabContent" style="background:white">
+                        <div class="tab-pane fade show active" id="quality" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum
+                                has been the industry standar dummyy text ever since the when an iunesi known.
+                            </p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled" style="line-height: 35px;">
+                                        <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                        </i>Multiple Layout</li>
+                                        <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right ">
+                                        </i>Awesome Shortcodes</li>
+                                        <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                        </i>Browser Compatibility</li>
+                                        <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                        </i>Easy to Edit Animations</li>
+                                        <li><i style="background: white;color: red;"class="fas fa-arrow-circle-right">
+                                        </i>Parallax Effect</li>
+                                        <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                        </i>Responsive Design</li>
+                                        <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                        </i>Many Home Page Versions</li>
+                                        <li><i style="background: white;color: red;"class="fas fa-arrow-circle-right">
+                                        </i>Many Blog Page</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                  <img src="img/porto5.jpg" class="img-fluid" alt="b"/>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text
+                                Ipsum has been the industry standar dummyy text ever since the when an iunesi known.
+                            </p>
+                             <div class="row">
+                                 <div class="col-md-6">
+                                     <ul class="list-unstyled" style="line-height: 35px;">
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Multiple Layout</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right ">
+                                         </i>Awesome Shortcodes</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Browser Compatibility</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Easy to Edit Animations</li>
+                                         <li><i style="background: white;color: red;"class="fas fa-arrow-circle-right">
+                                         </i>Parallax Effect</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Responsive Design</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Many Home Page Versions</li>
+                                         <li><i style="background: white;color: red;"class="fas fa-arrow-circle-right">
+                                         </i>Many Blog Page</li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <img src="img/porto3.jpg" class="img-fluid" alt="b"/>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="tab-pane fade" id="programming" role="tabpanel" aria-labelledby="nav-profile-tab">
+                             <p>Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text
+                                 Ipsum has been the industry standar dummyy text ever since the when an iunesi known.
+                             </p>
+                             <div class="row">
+                                 <div class="col-md-6">
+                                     <ul class="list-unstyled" style="line-height: 35px;">
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Multiple Layout</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right ">
+                                         </i>Awesome Shortcodes</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Browser Compatibility</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Easy to Edit Animations</li>
+                                         <li><i style="background: white;color: red;"class="fas fa-arrow-circle-right">
+                                         </i>Parallax Effect</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Responsive Design</li>
+                                         <li><i style="background: white;color: red;" class="fas fa-arrow-circle-right">
+                                         </i>Many Home Page Versions</li>
+                                         <li><i style="background: white;color: red;"class="fas fa-arrow-circle-right">
+                                         </i>Many Blog Page</li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-md-6">
+                                     <img src="img/porto4.jpg" class="img-fluid" alt="b"/>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+            </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" style="background: #ff0066;">
+            <h5 style="margin-top: 150px" class="section-title">WHY WORK WITH US?</h5>
+
             <div class="accordion" id="accordion1">
-                <div class="card card1">
+                  <div class="card card1">
                     <div class="card-header" role="tab" id="head1">
+
                         <a class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="false"
                            aria-controls="#collapse1">CUSTOMER SERVICES 24/7
                         </a>
                     </div>
-                </div>
-                <div id="collapse1" class="collapsing" role="tabpanel" aria-labelledby="head1" data-target="#collapse1">
-                    <div class="card-body">
+                  </div>
+                  <div id="collapse1" class="collapsing" role="tabpanel" aria-labelledby="head1" data-target="#collapse1">
+                     <div class="card-body">
                         Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum
                         has been the industry standar dummyy text ever since the when an iunesi known.
 
@@ -295,17 +347,18 @@
 
                         Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum
                         has been the industry standar dummyy text ever since the when an iunesi known.
-                    </div>
-                </div>
-                <div class="card card1">
-                    <div class="card-header" role="tab" id="head2">
+                     </div>
+                  </div>
+                  <div class="card card1">
+                     <div class="card-header" role="tab" id="head2">
                         <a class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
-                           aria-controls="#collapse2">CUSTOMER SERVICES 24/7
+                           aria-controls="#collapse2">INTEGRITY AND HONESTY
+
                         </a>
-                    </div>
-                </div>
-                <div id="collapse2" class="collapsing" role="tabpanel" aria-labelledby="head2" data-target="#collapse2">
-                    <div class="card-body">
+                      </div>
+                  </div>
+                  <div id="collapse2" class="collapsing" role="tabpanel" aria-labelledby="head2" data-target="#collapse2">
+                      <div class="card-body">
                         Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum
                         has been the industry standar dummyy text ever since the when an iunesi known.
 
@@ -314,16 +367,17 @@
 
                         Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum
                         has been the industry standar dummyy text ever since the when an iunesi known.
-                    </div>
-                </div>
-                <div class="card card1">
-                    <div class="card-header" role="tab" id="head3">
+                      </div>
+                  </div>
+                  <div class="card card1">
+                      <div class="card-header" role="tab" id="head3">
                         <a class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
-                           aria-controls="#collapse3">CUSTOMER SERVICES 24/7
+                           aria-controls="#collapse3">THE BEST SALES ON THE COUNTRY
+
                         </a>
-                    </div>
-                </div>
-                <div id="collapse3" class="collapsing" role="tabpanel" aria-labelledby="head3" data-target="#collapse3">
+                      </div>
+                   </div>
+                  <div id="collapse3" class="collapsing" role="tabpanel" aria-labelledby="head3" data-target="#collapse3">
                     <div class="card-body">
                         Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum
                         has been the industry standar dummyy text ever since the when an iunesi known.
@@ -334,16 +388,15 @@
                         Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum
                         has been the industry standar dummyy text ever since the when an iunesi known.
                     </div>
-                </div>
+                   </div>
+               </div>
             </div>
         </div>
     </div>
-        </div>
+</div>
 
 
 <div style="height: 300px;background: #1ccdca;"></div>
-INTEGRITY AND HONESTY
-THE BEST SALES ON THE COUNTRY
 
 
 
