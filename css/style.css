@@ -11,6 +11,71 @@
   line-height: 30px;
 
 }
+/*fixed menu dropdown*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:gray;
+  color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-top: 15px;
+}
+/* slideshow*/
+.mySlides {
+  display: none;
+}
+.img {
+  vertical-align: middle;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*@media only screen and (max-width: 600px) {
+  .nav {display: none;}  }*/
+
+
+
 .span {
   padding: 20px;
   font-family: "Open Sans", sans-serif;
@@ -21,10 +86,7 @@
 .soc { padding-right: 20px;
   color: gray;
 }
-.srch {
-  height: 30px;
 
-}
 
 .col1 {
   color:black;
@@ -32,8 +94,10 @@
 .navi {
   border-bottom: 1px solid #E4E4E4;
   cursor: pointer;
+  height: 80px;
+  background: white;
 }
-nav {
+.nav1 {
   color:gray ;
   font-size:12px;
   font-weight: bold;
@@ -152,9 +216,6 @@ article {
   transition: 0.8s;
 }
 
-
-
-
 .value {width: 40px;
   border-color:white;
   border-style: solid;
@@ -167,21 +228,90 @@ article {
   background: white;
   margin-right: 10px;
   float: right;
-
-
 }
 
-
-.valueTriangle{
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 20px  20px 20px 0 ;
-  border-color: transparent transparent red transparent;
-  float: right;
-}
 .card1 {
     max-width: 400px;
 }
+.why1 .nav-item {
+  background-color:white;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  }
+
+.why1 .nav-link {
+  color: gray;
+  border: 1px solid gray;
+  }
+
+.why1 .nav-link.active {
+  border-bottom: none;
+  border-top: 4px solid #1ccdca;
+  color: #1ccdca;
+   }
+
+.why1 .tab-content {
+  font-size: 14px;
+  color: gray;
+  background-color: #fff;
+  padding: 15px;
+  border: none;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.why1 .tab-content p {
+  padding: 10px;
+}
+.why1 .tab-content ul {
+  padding: 10px;
+}
+.why1 .tab-content img {
+  padding: 10px;
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+
+.why2 .card {
+  margin-bottom: 5px;
+}
+
+.why2 .card-header {
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px;
+   }
+.why2 .card-header button {
+  width: 100%;
+  color: gray;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.why2 .card-header button span.headTitle {
+  float: left;
+}
+.why2 .card-header button span.toggle {
+  float: right;
+}
+.why2 .card-header i {
+  margin-right: 10px;
+}
+
+.why2 .card.active .card-header  {
+  background-color: red;
+}
+
+.why2 .card.active .card-header button {
+  color:white;
+}
+
+.why2 .card-body {
+  color: gray;
+}
+
 
 
